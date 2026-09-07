@@ -11,5 +11,3 @@ print(greet("Alice"))
 
 
 print(add(5, 3))
-
-
