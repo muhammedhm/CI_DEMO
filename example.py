@@ -17,6 +17,4 @@ print(greet("Alice"))
 if __name__ == "__main__":
 
     print(add(5, 3))
-
-
     print(multiply(4, 6))
