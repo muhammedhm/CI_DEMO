@@ -13,8 +13,10 @@ def multiply(a, b):
 print(greet("Alice"))
 
 
-print(add(5, 3))
+if __name__ == "__main__":
+
+    print(add(5, 3))
 
 
-print(multiply(4, 6))
+    print(multiply(4, 6))
 
