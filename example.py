@@ -10,6 +10,7 @@ def add(a, b):
 def multiply(a, b):
     return a * b
 
+
 print(greet("Alice"))
 
 
@@ -19,4 +20,3 @@ if __name__ == "__main__":
 
 
     print(multiply(4, 6))
-
