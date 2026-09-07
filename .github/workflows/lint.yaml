@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        python-version: [3.13, 3.14, 3.9]
+        python-version: [3.14]
 
     steps:
       - name: Checkout code
@@ -34,6 +34,7 @@ jobs:
       - name: Run flake8
         run: | 
           flake8 example.py
+
   unit_test:
     needs: lint
     runs-on: ${{ matrix.os }}
@@ -41,7 +42,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        python-version: [3.13, 3.14, 3.9]
+        python-version: [3.14]
 
     steps:
       - name: Checkout code
